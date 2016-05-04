@@ -15,7 +15,7 @@
       </header>
       
       <section class="intro">
-        <h3>Signup for our newsletter</h3>
+        <h2>Signup for our newsletter</h2>
         <p>Get the latest news on how your code is doing right in your inbox</p>
       </section>  
 
@@ -114,18 +114,33 @@
          <fieldset>  
           
           <legend>Newsletter</legend>  
-          <label>Select the newsletters you would like to receive</label>
-          <input type="checkbox" id="html" value="html_news">HTML News<br>
-          <input type="checkbox" id="css" value="css_news">CSS News<br>
-          <input type="checkbox" id="Java" value="javascript-news"> Javascript News<br>
+          <h3>Select the newsletters you would like to receive </h3>
           
-          <label>Newsletter format</label>
-          <input type="radio" id="radio1" value="html" name="format">HTML<br>
-          <input type="radio" id="radio2" value="plain" name="format">Plain text<br>
+          <input type="checkbox" id="html" value="html_news">
+          <label for="html">HTML News</label><br>
           
-          <label>Send Me</label>
-          <input type="radio" id="radio3" value="weekly" name="send">Weekly Digest<br>
-          <input type="radio" id="radio4" value="daily" name="send">Daily<br>
+          <input type="checkbox" id="css" value="css_news">
+          <label for="css_news">CSS News</label><br>
+           
+          
+          <input type="checkbox" id="java" value="javascript-news">
+          <label for="java">Javascript News</label><br>
+          
+          <h3>Newsletter format</h3>
+          
+          <input type="radio" id="radio1" value="html" name="format">
+          <label for="radio1">HTML</label><br>
+         
+          <input type="radio" id="radio2" value="plain" name="format">
+          <label for="radio2">Plain text</label><br>
+          
+          <h3>Send Me</h3>
+        
+          <input type="radio" id="radio3" value="weekly" name="send">
+          <label for="radio3">Weekly Digest</label><br>
+         
+          <input type="radio" id="radio4" value="daily" name="send">
+          <label for="radio4">Daily</label><br>
           
           <label for="other">Other topics you'd like to hear about</label>
           <textarea id="other" name="other_topics"></textarea>
